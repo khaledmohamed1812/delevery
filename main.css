@@ -1,0 +1,55 @@
+.navbar{
+    background:linear-gradient( to right,rgba(245, 0, 0, 0.76) 50%,rgb(223, 207, 206))
+
+}
+.navbar .navbar-brand{
+    color: white;
+    font-weight: bold;
+}
+.navbar  .nav-link{
+    color: black;
+    font-weight: bold;
+    transition: all 0.5sec;
+}
+.navbar  .nav-link:hover{
+    background: white;
+    color: rgba(255, 47, 47, 0.637);
+    border-radius: 20px;
+}
+section{
+    margin: 30px 0px;
+}
+.hr{
+width: 25%;
+border-radius: 50%;
+height: 3px;
+background-color: red;
+margin: auto;
+}
+#about img{
+    border-radius: 20px;
+    height: 450px;
+}
+.nav-tabs .nav-link.active{
+    background-color: rgba(224, 70, 70, 0.918);
+    border-radius: 20px;
+    color: black;
+    margin-bottom: -1px;
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    display: block;
+}
+.nav-tabs .nav-link{
+    background-color: rgba(224, 70, 70, 0.918);
+    border-radius: 20px;
+    color: black;
+    margin-bottom: -1px;
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    display: block;
+}
+#footer{
+    background-color: rgb(233, 60, 60);
+}

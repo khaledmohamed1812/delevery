@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <!-- Icons -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- CSS BOOT STRAP -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- MY CSS FILE -->
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg  ">
+            <a class="navbar-brand" href="#"> <img src="./img/icon6.png" alt="" width="40"></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                Meanu
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Footer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+
+            </div>
+        </nav>
+        <div style="width:90%; margin: auto;">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/slide1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/slide9.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/slide2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/slide7.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+<!-- About -->
+    <section id="about">
+        <div class="about-header">
+            <h1 class="text-center text-danger">About Us</h1>
+            <div class="hr"></div>
+            <hr style="border: 1px solid black; width: 20%;">
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="about-img"> <img src="./img/about.jpg " class="img-fluid" alt=""></div>
+                </div>
+                <div class="col-md-7 text-center bg-danger">
+                   <div class="about-content">
+                    <h1>OUR DELEVIRY</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est tenetur ratione dolores cumque iure nemo deserunt
+                     a quasi amet accusamus? Porro velit id itaque delectus laborum quaerat doloremque nesciunt fuga?</p>
+                     <h1>OUR DELEVIRY</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est tenetur ratione dolores cumque iure nemo deserunt
+                     a quasi amet accusamus? Porro velit id itaque delectus laborum quaerat doloremque nesciunt fuga?</p>
+                     <h1>OUR DELEVIRY</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est tenetur ratione dolores cumque iure nemo deserunt
+                     a quasi amet accusamus? Porro velit id itaque delectus laborum quaerat doloremque nesciunt fuga?</p>
+                   </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+<!-- Treatment -->
+<section id="about">
+    <div class="about-header">
+        <h1 class="text-center text-danger">Our Treatment</h1>
+        <div class="hr"></div>
+        <hr style="border: 1px solid black; width: 20%;">
+    </div>
+        <nav>
+            <div class="nav nav-tabs justify-content-between" id="nav-tab" role="tablist">
+                <a class="nav-link" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
+                    aria-controls="nav-home" aria-selected="false">
+                    Resturants
+                </a>
+                <a class="nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
+                    aria-controls="nav-profile" aria-selected="false">Coffe Shop</a>
+                <a class="nav-link active" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
+                    aria-controls="nav-contact" aria-selected="true">Meals&Drinks</a>
+
+            </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="container">
+                    <div class="row" style="margin-top: 50px;">
+                        <div class="col-md-4">
+                            <img src="./img/3.jpg" class="img-fluid" alt="Eroor">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./img/3.jpg" class="img-fluid" alt="Eroor">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./img/3.jpg" class="img-fluid" alt="Eroor">
+                        </div>
+                        <div class="col-md-4" style="margin-top: 30px;">
+                            <img src="./img/3.jpg" class="img-fluid" alt="Eroor">
+                        </div>
+                        <div class="col-md-4" style="margin-top: 30px;">
+                            <img src="./img/3.jpg" class="img-fluid" alt="Eroor">
+                        </div>
+                        <div class="col-md-4" style="margin-top: 30px;">
+                            <img src="./img/3.jpg" class="img-fluid" alt="Eroor">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="./img/7.jpg" class="img-fluid" alt="Eroor">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./img/7.jpg" class="img-fluid" alt="Eroor">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./img/7.jpg" class="img-fluid" alt="Eroor">
+                        </div>
+                        <div class="col-md-4" style="margin-top: 30px;">
+                            <img src="./img/7.jpg" class="img-fluid" alt="Eroor">
+                        </div>
+                        <div class="col-md-4" style="margin-top: 30px;">
+                            <img src="./img/7.jpg" class="img-fluid" alt="Eroor">
+                        </div>
+                        <div class="col-md-4" style="margin-top: 30px;">
+                            <img src="./img/7.jpg" class="img-fluid" alt="Eroor">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade active show" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="./img/8.jpg" class="img-fluid" alt="Eroor">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./img/9.jpg" class="img-fluid" alt="Eroor">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./img/10.jpg" class="img-fluid" alt="Eroor">
+                        </div>
+                        <div class="col-md-4" style="margin-top: 30px;">
+                            <img src="./img/10.jpg" class="img-fluid " alt="Eroor">
+                        </div>
+                        <div class="col-md-4" style="margin-top: 30px;">
+                            <img src="./img/9.jpg" class="img-fluid" alt="Eroor">
+                        </div>
+                        <div class="col-md-4" style="margin-top: 30px;">
+                            <img src="./img/8.jpg" class="img-fluid" alt="Eroor">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Booking -->
+    <section id="about">
+        <div class="about-header">
+            <h1 class="text-center text-danger">Booking Order</h1>
+            <div class="hr"></div>
+            <hr style="border: 1px solid black; width: 20%;">
+        </div>
+
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1> Buy Now </h1>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Your Name : </label>
+                            <input type="text" class="form-control" placeholder="Full Name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Your Phone : </label>
+                            <input type="text" class="form-control" placeholder="Phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Number Of Tickets : </label>
+                            <input type="text" class="form-control" placeholder="Product">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Buy Now</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <img src="./img/map.jpg " class="img-fluid " style="margin-top: 30px;" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <section id="footer">
+        <footer class="site-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+                <h6>About</h6>
+                <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+              </div>
+      
+              <div class="col-xs-6 col-md-3">
+                <h6>Categories</h6>
+                <ul class="footer-links">
+                  <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
+                  <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
+                  <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
+                  <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
+                  <li><a href="http://scanfcode.com/category/android/">Android</a></li>
+                  <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+                </ul>
+              </div>
+      
+              <div class="col-xs-6 col-md-3">
+                <h6>Quick Links</h6>
+                <ul class="footer-links">
+                  <li><a href="http://scanfcode.com/about/">About Us</a></li>
+                  <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+                  <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+                  <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+                  <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+                </ul>
+              </div>
+            </div>
+            <hr>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-sm-6 col-xs-12">
+                <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+             <a href="#">github.com/khaledmohamed1812</a>.
+                </p>
+              </div>
+      
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                <ul class="social-icons">
+                  <li><a class="facebook" href="#">   <i class="fab fa-facebook-square" style="font-size: 35px;"></i>  </a></li>
+                  <li><a class="twitter" href="#"> <i class="fab fa-instagram-square" style="font-size: 35px;"></i> </a></li>
+       
+                </ul>
+              </div>
+            </div>
+          </div>
+      </footer>
+          </section>
+   
+
+   
+    
+
+
+
+
+
+
+    <script src="./js/jquery-3.5.1.slim.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>
